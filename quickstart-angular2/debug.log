@@ -1,0 +1,3 @@
+[1009/171601:ERROR:process_reader_win.cc(233)] ReadMemory at 0x48ba000 of 24576 bytes failed: ReadProcessMemory 또는 WriteProcessMemory의 일부 작업만을 마쳤습니다. (0x12B)
+[1009/171601:ERROR:crash_report_exception_handler.cc(98)] WriteEverything failed
+[1009/171601:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다.  (0xc000010a)

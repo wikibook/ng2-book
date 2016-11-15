@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Angular 2 Application</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 첫번째. 전역 스타일 호출 -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- 두번째. 폴리필 라이브러리 호출 -->
+    <script src="https://unpkg.com/core-js/client/shim.min.js"></script>
+    <script src="https://unpkg.com/zone.js@0.6.25?main=browser"></script>
+    <script src="https://unpkg.com/reflect-metadata@0.1.3"></script>
+
+    <!-- 세번째. SystemJS 라이브러리 호출과 설정 -->	
+	<script src="https://unpkg.com/systemjs@0.19.27/dist/system.src.js"></script>
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+  </head>  
+  <body>
+	<!-- 네번째. application 표시 -->
+    <my-app>Loading...</my-app>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+/* You can add global styles to this file, and also import other style files */
+/*
+2016-10-06
+*/
+html,
+body
+{
+    font: inherit;
+    font-size: 100%;
+
+    overflow: hidden;
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+}
+h1,
+h2,
+h3,
+h4
+{
+    font-family: Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;
+}
+img,
+fieldset,
+iframe
+{
+    border: 0 none;
+}
+/* ul and li have margin or padding */
+ul, li{
+    list-style: none;
+    margin: 0; padding: 0;
+}
+input,
+select,
+button
+{
+    vertical-align: middle;
+    font-size: 15px;
+    cursor: pointer;    
+}
+img
+{
+    vertical-align: top;
+}
+
+
+a
+{
+    text-decoration: none;
+}
+div,
+ol,
+li,
+p,
+button
+{
+    margin: 0;padding: 0;
+}
+input,
+button
+{
+    font-family: Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;font-size: 12px;color: #383d41;
+}
+
+/*
+app.component.ts
+*/
+.left-menu
+{
+    float: left;
+
+    height: 100%;
+    min-height: 100%;
+    padding: 20px;
+
+    color: #551a8b;
+    background: #4f85bb; /* Old browsers */
+    background:    -moz-linear-gradient(top, #4f85bb 0%, #4f85bb 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #4f85bb 0%,#4f85bb 100%); /* Chrome10-25,Safari5.1-6 */
+    background:         linear-gradient(to bottom, #4f85bb 0%,#4f85bb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f85bb', endColorstr='#4f85bb',GradientType=0 ); /* IE6-9 */
+}
+.menu
+{
+    font-size: 14px;
+    top:50px;
+
+    float: left;
+
+    padding: 10px 15px 10px 15px;
+
+    -webkit-border-radius: 20px;
+       -moz-border-radius: 20px;
+            border-radius: 20px;
+    background-color: #fff;
+}
+.tree-list
+{
+    margin-top: 10px;
+
+    text-align: left;
+}
+
+.play-box
+{
+    float: left;
+
+    padding: 50px 0 30px 20px;
+}

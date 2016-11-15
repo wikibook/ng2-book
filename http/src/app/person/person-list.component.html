@@ -1,0 +1,13 @@
+<h3>인물관리 by {{mode}}</h3>
+<section>
+	<input #newPersonName placeholder="이름을 입력해주세요" />
+	<button (click)="addPerson(newPersonName.value); newPersonName.value=''">추가</button>
+	<p class="error" *ngIf="errMessage">{{errMessage}}</p>
+  {{resultMessage}}
+</section><br>
+
+<ul class="list">
+	<li *ngFor="let p of persones;let i=index">{{i+1}}. {{p.name}}
+		<item-edit (doPut)="doPut($event)" (doDelete)="doDelete($event)" [persons]="p"></item-edit>
+	</li>
+</ul>

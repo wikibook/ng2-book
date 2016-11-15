@@ -1,0 +1,6 @@
+.toggle-popup {   
+  border:1px solid #009688;      
+  width: 200px;           
+  overflow:hidden;
+  text-align:center;
+}

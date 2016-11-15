@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "outDir": "./dist/",
+    "rootDir": ".",
+    "sourceMap": true,
+    "target": "ES2015",
+    "inlineSources": true
+  },
+  "exclude": [
+    "node_modules",
+    ".vscode"
+  ]
+}
+/*
+References
+https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+*/

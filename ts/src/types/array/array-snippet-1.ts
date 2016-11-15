@@ -1,0 +1,1 @@
+let fruits: string[] = ["banana","apple","mango"];
