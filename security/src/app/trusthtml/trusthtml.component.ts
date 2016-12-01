@@ -13,10 +13,10 @@ import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 export class TrusthtmlComponent {
 
   trustHtml: SafeHtml;
-  notTrustHtml: string = `<script>function hello(){ alert("헬로우 메소드 알림창!"); }</script>
+  notTrustHtml: string = `<script>function hello(){ alert("헬로우 메서드 알림창!"); }</script>
   <style>button{font-size:20px;padding:10px;font-style:italic;}</style>
-  <button onclick="hello()">메소드 호출 by onclick</button>
-  <button (click)="hello()">메소드 호출 by (click)</button><br><br>
+  <button onclick="hello()">메서드 호출 by onclick</button>
+  <button (click)="hello()">메서드 호출 by (click)</button><br><br>
   
   <button onclick="javascript:alert('헬로우 알림창!')">Hello 알림창 띄우기</button>`;
 
