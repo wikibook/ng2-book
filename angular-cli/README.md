@@ -1,33 +1,15 @@
-# Memo
+# Angular CLI에 대한 메모
 
-이 프로젝트는 angular-cli version 1.0.0-beta.14를 사용하고 있습니다. 편의상 의존모듈을 포함한 전체를 업로드합니다.
+책에서 사용한 angular-cli 프로젝트는 angular-cli version 1.0.0-beta.14를 사용하고 있습니다. angular-cli의 의존 모듈이 많기 때문에 네트워크 속도에 따라 오랜 시간이 걸릴 수 있습니다. 따라서 이러한 불편한 점을 감안해 의존모듈은 별도로 압축해서 올려놓습니다.
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.14.
+	/angular-cli/node_modules.zip 
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+의존모듈이 받기가 어렵거나, 시간이 오래걸리거나 오류가 있다면 위 파일을 /angular-cli/node_modules 디렉터리에 압축을 풀어서 이용할 수 있습니다. node_modules는 angular-cli 프로젝트 생성시 자동으로 설치되는 의존 모듈 파일이 담긴 디렉터리입니다. 책에서 사용한 angular-cli와 버전이 다르다면 의존모듈 구성이 달러 프로젝트 예제가 실행되지 않을 수 도 있습니다.
 
-## Code scaffolding
+# Angular-CLI 실행 #
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
+주제별로 /src 폴더를 통채로 /angular-cli 폴더로 복사하고 나서 ng serve 명령어를 이용해 angular-cli를 실행하면 됩니다.
 
-## Build
+	ng serve
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/). 
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Deploying to Github Pages
-
-Run `ng github-pages:deploy` to deploy to Github Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+위 명령어를 입력하고 나서 브라우저로 `http://localhost:4200/` 주소로 이동하면 실행 결과가 나타납니다.
