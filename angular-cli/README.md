@@ -1,5 +1,7 @@
 # Memo
 
+이 프로젝트는 angular-cli version 1.0.0-beta.14를 사용하고 있습니다. 편의상 의존모듈을 포함한 전체를 업로드합니다.
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.14.
 
 ## Development server
