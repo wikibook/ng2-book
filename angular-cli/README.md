@@ -4,7 +4,7 @@
 
 	/angular-cli/node_modules.zip 
 
-의존모듈이 받기가 어렵거나, 시간이 오래걸리거나 오류가 있다면 위 파일을 /angular-cli/node_modules 디렉터리에 압축을 풀어서 이용할 수 있습니다. node_modules는 angular-cli 프로젝트 생성시 자동으로 설치되는 의존 모듈 파일이 담긴 디렉터리입니다. 책에서 사용한 angular-cli와 버전이 다르다면 의존모듈 구성이 달러 프로젝트 예제가 실행되지 않을 수 도 있습니다.
+의존모듈이 받기가 어렵거나, 시간이 오래걸리거나 오류가 있다면 node_modules.zip 파일을 /angular-cli/node_modules 디렉터리에 압축풉니다.
 
 # Angular-CLI 실행 #
 
