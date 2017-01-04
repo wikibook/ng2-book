@@ -3,9 +3,9 @@ import { UserService } from '../core/user.service';
 
 @Component({
   selector: 'app-title',
-  templateUrl: `
+  template: `
   <h1 highlight>{{title}}</h1>
-  by <b>{{user}}</b>`,
+  by <b>{{user}}</b>`
 })
 export class TitleComponent {
   @Input() title = '';
