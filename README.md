@@ -40,5 +40,6 @@ Angular 세계로 오신 여러분 모두를 환영합니다.
 - [Angular 2 Korea User Group](https://www.facebook.com/groups/angularkorea/?ref=bookmarks)
 	- 이 그룹은 Angular 2 한국 개발자 그룹으로 Angular 2의 정보를 공유하고, Angular 2 확산의 목표가 있습니다.
 
-## 5. 질문
- - 책에 대해 궁금한 점이나 질문은 책에 기재된 이메일로 연락 바랍니다.
+## 5. 기타
+- 질문 : 책에 대해 궁금한 점이나 질문은 책에 기재된 이메일로 연락 바랍니다.
+- 오탈자 : [http://wikibook.co.kr/angular-2](http://wikibook.co.kr/angular-2/) 페이지에 접속 후 오탈자 탭에서 확인 부탁드립니다. 오탈자가 있다면 [홈페이지](http://wikibook.co.kr/angular-2/)에서 오탈자 등록을 부탁드립니다.
