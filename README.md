@@ -42,4 +42,4 @@ Angular 세계로 오신 여러분 모두를 환영합니다.
 
 ## 5. 기타
 - 질문 : 책에 대해 궁금한 점이나 질문은 책에 기재된 이메일로 연락 바랍니다.
-- 오탈자 : [http://wikibook.co.kr/angular-2](http://wikibook.co.kr/angular-2/) 페이지에 접속 후 오탈자 탭에서 확인 부탁드립니다. 오탈자가 있다면 [홈페이지](http://wikibook.co.kr/angular-2/)에서 오탈자 등록을 부탁드립니다.
+- 오탈자 : 책의 오탈자는 [http://wikibook.co.kr/angular-2](http://wikibook.co.kr/angular-2/) 페이지에 접속 후 오탈자 탭에서 확인할 수 있습니다. 책에 오탈자/오류가 있다면 [홈페이지](http://wikibook.co.kr/angular-2/)에서 오탈자 등록을 부탁드립니다.
