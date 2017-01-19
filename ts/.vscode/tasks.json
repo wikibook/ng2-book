@@ -1,8 +1,8 @@
-{
+{   
     "version": "0.1.0",
-    "command": "ts-node",
+    "command": "tsc",
     "isShellCommand": true,
-    "args": ["${file}"],
+    "args": ["-w", "-p", "."],
     "showOutput": "always",
     "isWatching": true,
     "problemMatcher": "$tsc-watch"
