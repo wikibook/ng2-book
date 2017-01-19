@@ -37,8 +37,8 @@ Angular 세계로 오신 여러분 모두를 환영합니다.
 
 ## 4. 커뮤니티 소개
 
-- [Angular 2 Korea User Group](https://www.facebook.com/groups/angularkorea/?ref=bookmarks)
-	- 이 그룹은 Angular 2 한국 개발자 그룹으로 Angular 2의 정보를 공유하고, Angular 2 확산의 목표가 있습니다.
+- [Angular Korea User Group](https://www.facebook.com/groups/angularkorea/?ref=bookmarks)
+	- 이 그룹은 Angular 한국 개발자 그룹으로 Angular 2의 정보를 공유하고, Angular 확산의 목표가 있습니다.
 
 ## 5. 기타
 - 질문 : 책에 대해 궁금한 점이나 질문은 책에 기재된 이메일로 연락 바랍니다.
