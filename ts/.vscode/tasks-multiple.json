@@ -1,0 +1,20 @@
+/*
+tsc 명령어를 이용해 타입스크립트 파일을 자바스립트 파일을 컴파일하여 *.js 파일을 생성합니다.
+생성된 *.js 파일을 node 명령어를 이용해 실행해 비주얼 스튜디오 코드에서 결과를 확인합니다.
+*/
+{
+	"version": "0.1.0",
+    "command": "cmd", 
+    "args": ["/c"],
+	"tasks": [		
+		{
+			"taskName": "Test Typescript",
+			"suppressTaskName": true,
+			"isBuildCommand": true,
+			"args": [
+				"tsc ${file} & node ${fileDirname}/${fileBasenameNoExtension}.js"
+			],
+			"showOutput": "always"
+		}
+	]
+}

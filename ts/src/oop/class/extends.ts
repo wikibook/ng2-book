@@ -23,4 +23,8 @@ class SuperCar extends Car{
 var mySuperCar = new SuperCar("MySuperCar",5);
 console.log(mySuperCar.getTier());
 console.log(mySuperCar.getIncreaseTier());
-console.log(mySuperCar.getName()); // 에러!
+//console.log(mySuperCar.getName()); // 에러!
+
+/*
+주석 해제 후 테스트
+*/

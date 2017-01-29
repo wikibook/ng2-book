@@ -1,8 +1,8 @@
-interface Animal {    
+interface Animals {    
     leg:number;
 }
 
-interface Bird extends Animal {    
+interface Bird extends Animals {    
     wing:number;
     getNumWing();
 }
