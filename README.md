@@ -41,16 +41,16 @@ Angular 세계로 오신 여러분 모두를 환영합니다.
 	- /ts/src/types/let 디렉터리 위치로 이동해 콘솔 창(터미널 창)을 엽니다.
 	- tsc hoisting.ts 명령어를 입력합니다. 그러면 컴파일 된 hoisting.js 파일이 동일 디렉터리에 생성됩니다.
 	- node hoisting.js 명령어를 이용해 컴파일 된 hoisting.js 파일을 실행합니다.
-- 비주얼 스튜디오 코드 이용시 설정할 파일은 두가지가 있습니다.
+- 비주얼 스튜디오 코드로 타입스크립트를 빌드할 때 필요한 설정할 파일은 두가지가 있습니다.
 	- 첫번째 파일은 [https://github.com/wikibook/ng2-book/blob/master/ts/tsconfig.json](https://github.com/wikibook/ng2-book/blob/master/ts/tsconfig.json)파일입니다.이 파일은 타입스크립트 컴파일러 설정 옵션에 대한 파일입니다.
 	- 두번째 파일은 [tasks.json](https://github.com/wikibook/ng2-book/blob/master/ts/.vscode/tasks.json) 파일입니다. 이는 ctrl + shift + b로 빌드를 수행할 때 실행할 태스크러너에 대한 설정입니다.
-- 52p 예제 3.1을 비주얼 스튜디오 코드의 감시 모드실행 후 콘솔창에서 실행결과 확인	
+- 52p 예제 3.1를 컴파일하고 결과 확인 (TSC + NODE 명령어 이용)
 	- 44p를 참고해 [tasks.json](https://github.com/wikibook/ng2-book/blob/master/ts/.vscode/tasks.json)파일을 설정합니다.
 	- 그리고 /ts/src/types/let/hoisting.ts 파일을 열고 ctrl + shift + b 를 실행하면 watch 상태가 됩니다. 변경시 마다 컴파일이 일어나고 컴파일된 결과가 생성됩니다.
 	- 컴파일된 결과 파일 이름은 hoisiting.ts 파일을 컴파일 했다면 *.js 형태가 되어 hoisiting.js 파일이 생성됩니다.
 	- ctrl + shift + c 를 눌러 콘솔 창을 엽니다. 그리고 나서 다음과 같은 명령어를 입력해 결과를 확인합니다.
 	- node hoisting.js
-- 52p 예제 3.1을 비주얼 스튜디오 코드에서 빌드 후 OUTPUT 창에서 실행결과 확인
+- 52p 예제 3.1를 컴파일하고 결과 확인 (ts-node 모듈 이용)
 	- 비주얼 스튜디오 코드에서 ctrl + shift + b를 누르고 곧 바로 실행 결과를 확인하려면 [ts-node](https://github.com/TypeStrong/ts-node) 모듈을 이용하면 됩니다.
 	- ts-node 설치는 다음과 같은 명령어로 할 수 있습니다.
 		- npm install -g ts-node
