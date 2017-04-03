@@ -31,7 +31,7 @@ Angular 세계로 오신 여러분 모두를 환영합니다.
 
 ## 3. Angular 소스코드를 빠르게 실행 하는 방법
 
-- 위 개발환경이 갖춰 줬다면 본 저장소의 /angular-cli/node_modules.zip를 /angular-cli/node_module 디렉터리에 압축을 풀고 ng serve 명령어로 angular-cli 프로젝트를 실행시킵니다.
+- 위 개발환경이 갖춰 줬다면 본 저장소의 /angular-cli/node_modules.zip를 /angular-cli/node_modules 디렉터리에 압축을 풀고 ng serve 명령어로 angular-cli 프로젝트를 실행시킵니다.
 - 2번의 각 장의 소스코드가 들어 있는 디렉터리 위치를 참고해 "/각 장의 주제/src"의 폴더를 /angular-cli에 복사합니다.
 - 브라우저로 http://localhost:4200/ 에 접속한 뒤 실행 결과를 확인합니다.
 
