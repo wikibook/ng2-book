@@ -57,6 +57,11 @@ Angular 세계로 오신 여러분 모두를 환영합니다.
 	- 설치가 완료 됐다면, 비주얼 스튜디오 코드에서 ts-node를 연결해 줍니다. ts-node 모듈을 비주얼 스튜디오 코드와 연결해 줄 때는 제가 미리 작성해둔 [tasks-tsnode.json](https://github.com/wikibook/ng2-book/blob/master/ts/.vscode/tasks-tsnode.json) 파일이 있습니다. 이 파일을 [tasks.json](https://github.com/wikibook/ng2-book/blob/master/ts/.vscode/tasks.json) 파일로 덮어쓰기로 복사합니다.
 	- 위와 같은 설정을 모두 마쳤다면 비주얼스튜디오 코드에서 ctrl + shift + b를 입력해 타입스크립트 실행 결과를 곧 바로 확인할 수 있습니다.
 
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/U8nAxJPaUgA" frameborder="0" allowfullscreen></iframe></center>
+
+
+
 ## 5. 커뮤니티 소개
 
 - [Angular Korea User Group](https://www.facebook.com/groups/angularkorea/?ref=bookmarks)
