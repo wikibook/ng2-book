@@ -35,7 +35,11 @@ Angular 세계로 오신 여러분 모두를 환영합니다.
 - 2번의 각 장의 소스코드가 들어 있는 디렉터리 위치를 참고해 "/각 장의 주제/src"의 폴더를 /angular-cli에 복사합니다.
 - 브라우저로 http://localhost:4200/ 에 접속한 뒤 실행 결과를 확인합니다.
 
+[![쉽고 빠르게 배우는 Angular 2 프로그래밍 예제 실행 장면](https://i.ytimg.com/vi/U8nAxJPaUgA/hqdefault.jpg?custom=true&w=196&h=110&stc=true&jpg444=true&jpgq=90&sp=68&sigh=pRVryeLYerZfS1y67o-lwMNx8ME)](https://www.youtube.com/watch?v=U8nAxJPaUgA)
+
+
 ## 4. 3장 타입스크립트 소스코드를 실행하는 방법
+
 - 타입스크립트를 실행해 결과를 확인하는 방법은 tsc 명령어를 이용해 타입스크립트 파일 *.ts을 컴파일하고 node 명령어를 이용해 *.js 파일의 실행 결과를 확인하는 것 입니다.
 - 52p 예제 3.1을 콘솔 창에서 테스트 하는 경우
 	- /ts/src/types/let 디렉터리 위치로 이동해 콘솔 창(터미널 창)을 엽니다.
@@ -57,8 +61,6 @@ Angular 세계로 오신 여러분 모두를 환영합니다.
 	- 설치가 완료 됐다면, 비주얼 스튜디오 코드에서 ts-node를 연결해 줍니다. ts-node 모듈을 비주얼 스튜디오 코드와 연결해 줄 때는 제가 미리 작성해둔 [tasks-tsnode.json](https://github.com/wikibook/ng2-book/blob/master/ts/.vscode/tasks-tsnode.json) 파일이 있습니다. 이 파일을 [tasks.json](https://github.com/wikibook/ng2-book/blob/master/ts/.vscode/tasks.json) 파일로 덮어쓰기로 복사합니다.
 	- 위와 같은 설정을 모두 마쳤다면 비주얼스튜디오 코드에서 ctrl + shift + b를 입력해 타입스크립트 실행 결과를 곧 바로 확인할 수 있습니다.
 
-
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/U8nAxJPaUgA" frameborder="0" allowfullscreen></iframe></center>
 
 
 
